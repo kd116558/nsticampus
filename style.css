@@ -106,9 +106,13 @@ html{
     flex-direction: column;
 }
 .mainlogotext{
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight:bolder;
     color: rgb(88, 30, 143);
+}
+.mainlogotext:nth-child(even){
+    font-size: 1.5vw;
+    font-style: italic;
 }
 .advancedlogo{
     display: flex;
