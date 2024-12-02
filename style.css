@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+
+}
+::-webkit-scrollbar{
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(161, 78, 239) ;
+}
+html{
+    scroll-behavior: smooth;
+}
+.mhead{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(190, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 5px;
+}
+.hrld{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap:15px;
+    padding: 5px;
+}
+.vertical1{
+    width:0px;
+    border: 1px solid #fff;
+    height: 70%;
+}
+.hrldlink{
+    color: rgb(48, 48, 247);
+    font-size: large;
+}
+.hrldlink:hover{
+    color: red;
+}
+.searchbox{
+    width: fit-content;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#search{
+    height: 28px;
+    padding: 5px;
+}
+.buttons{
+    font-size: large;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(161, 78, 239);
+    color: #fff;
+    font-weight: bold;
+}
+.header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.mainheader{
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    
+}
+.headsec{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 20px;
+
+}
+.mainlogo{
+    width: 50%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px;
+    gap: 20px;
+}
+.nametext{
+    display: flex;
+    flex-direction: column;
+}
+.mainlogotext{
+    font-size: 2vw;
+    font-weight:bolder;
+    color: rgb(88, 30, 143);
+}
+.advancedlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.littleimglogo{
+   width: 150px;
+   height: 100px;
+}
