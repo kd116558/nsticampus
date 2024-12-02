@@ -120,3 +120,41 @@ html{
    width: 150px;
    height: 100px;
 }
+.navdiv{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(88, 30, 143);
+    color :#fff;
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.btnmenu{
+    width: fit-content;
+    height: fit-content;
+    font-size:50px;
+    border: 2px solid #fff;
+    display: none;
+}
+.navul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navli>.navlink{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.navlink:hover{
+    background-color: rgb(131, 55, 202);
+    border-radius: 5px;
+}
